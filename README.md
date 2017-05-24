@@ -1,2 +1,2 @@
 # odin-google-homepage
-Project HTML/CSS via The Odin Project
+Project HTML/CSS via The Odin Project's [curriculum](http://www.theodinproject.com/web-development-101/html-css)
