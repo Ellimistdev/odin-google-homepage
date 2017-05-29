@@ -106,6 +106,9 @@ li a{
     padding-top: 109px;
 }
 
+.logo_wrapper{
+    height: 233px;
+}
 .float-right {
     float: right;
 }
