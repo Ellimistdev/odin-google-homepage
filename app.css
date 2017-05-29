@@ -1,6 +1,9 @@
 a{
     text-decoration: none;
 }
+a:hover{
+    text-decoration: underline;
+}
 
 ul{
   list-style-type: none;
@@ -9,7 +12,7 @@ ul{
 }
 
 li{
-    display: inline;
+    display: inline-block;
     padding: 0 0.5em;
 }
 
@@ -17,10 +20,46 @@ li a{
     color: grey;
 }
 
+#apps, #notifications, #profile{
+    display: inline-block;
+}
+#apps, #profile{
+    width: 30px;
+    height: 30px;
+}
+#apps, #notifications{
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+}
 #profile{
     background-image: url(https://lh3.googleusercontent.com/-AD3Ywars2NA/AAAAAAAAAAI/AAAAAAAAAAA/AAyYBF4A3USriFcWH_G3FJhmege_xeWDng/s32-c-mo/photo.jpg);
 }
-
+#apps{        
+    background-position:-132px -38px;
+    opacity: 0.5;
+}
+#apps:hover{
+    opacity: 1;
+}
+#notifications{
+    background-color: rgba(0,0,0,.55);
+    border-radius: 50%;
+    background-position: -194px -21px;
+    background-size: 528px 68px;
+    margin: 5px;
+    padding: 0 2px;
+    width: 16px;
+    height: 20px;
+}
+#notifications:hover{
+    background-color: black;
+}
+#foot{
+    background-color: #F2F2F2;
+    position: fixed;
+    bottom: 0;
+	height: 30px;
+    width: 100%;
+}
 .clearfix{
     display: inline-block;
     width: 100%;
